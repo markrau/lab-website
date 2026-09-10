@@ -1,8 +1,9 @@
 ---
 name: Mark Rau
 image: images/mark/Rau_headshotCropped2.jpg
-role: Assistant Professor
-affiliation: Massachusetts Institute of Technology
+role: principal-investigator
+description: Assistant Professor
+affiliation: MIT
 aliases:
   - M. Rau
   - M Rau

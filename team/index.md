@@ -11,8 +11,14 @@ Our team is great!
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
-{% include list.html data="members" component="portrait" filter="role != 'principal-investigator'" %}
+{% include list.html data="members" component="portrait" filter="role == 'principal-investigator' and alumni != true" %}
+{% include list.html data="members" component="portrait" filter="role != 'principal-investigator' and alumni != true" %}
+
+{% include section.html %}
+
+## Previous Members
+
+{% include list.html data="members" component="portrait" filter="alumni == true" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
